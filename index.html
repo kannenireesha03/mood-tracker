@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mental Health Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌈 Mental Health Mood Tracker</h1>
+    <p>Select your current mood 👇</p>
+    
+    <div class="mood-options">
+      <button class="mood" onclick="trackMood('😊 Happy')">😊 Happy</button>
+      <button class="mood" onclick="trackMood('😔 Sad')">😔 Sad</button>
+      <button class="mood" onclick="trackMood('😡 Angry')">😡 Angry</button>
+      <button class="mood" onclick="trackMood('😌 Calm')">😌 Calm</button>
+      <button class="mood" onclick="trackMood('😴 Tired')">😴 Tired</button>
+      <button class="mood" onclick="trackMood('😕 Anxious')">😕 Anxious</button>
+    </div>
+
+    <h2>📝 Mood Log</h2>
+    <ul id="log"></ul>
+  </div>
+
+  <!-- Optional floating hearts -->
+  <div class="hearts">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
